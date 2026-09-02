@@ -11,16 +11,16 @@ public class Main {
         Scene scene = new Scene();
 
         Sphere sphere = new Sphere(
-                new Vector3D(0, 0, -3),
-                1
+                new Vector3D(0.8, 0, -5),
+                0.8
         );
 
         scene.addShape(sphere);
 
         Triangle triangle = new Triangle(
-                new Vector3D(-2, -1, -4),
-                new Vector3D(-0.5, -1, -4),
-                new Vector3D(-1.25, 1, -4)
+                new Vector3D(-1.5, -0.8, -4),
+                new Vector3D(-0.2, -0.8, -4),
+                new Vector3D(-0.85, 0.8, -4)
         );
 
         scene.addShape(triangle);
