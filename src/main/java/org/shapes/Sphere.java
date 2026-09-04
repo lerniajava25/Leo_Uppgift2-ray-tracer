@@ -4,8 +4,8 @@ import org.Ray;
 import org.Vector3D;
 
 public class Sphere implements Shape {
-    private Vector3D center;
-    private double radius;
+    private final Vector3D center;
+    private final double radius;
 
     public Sphere(Vector3D center, double radius) {
         this.center = center;

@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class Main {
 
-    static void main() throws IOException {
+    public static void main(String[] args) throws IOException {
         Scene scene = new Scene();
 
         Sphere sphere = new Sphere(
@@ -25,7 +25,10 @@ public class Main {
 
         scene.addShape(triangle);
 
-        Renderer renderer = new Renderer(400, 300);
+        final int width = 400;
+        final int height = 400;
+
+        Renderer renderer = new Renderer(width, height);
         renderer.render(scene, "render.ppm");
     }
 }

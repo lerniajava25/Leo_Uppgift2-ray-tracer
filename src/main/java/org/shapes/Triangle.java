@@ -4,9 +4,9 @@ import org.Ray;
 import org.Vector3D;
 
 public class Triangle implements Shape {
-    private Vector3D p1;
-    private Vector3D p2;
-    private Vector3D p3;
+    private final Vector3D p1;
+    private final Vector3D p2;
+    private final Vector3D p3;
 
     public Triangle(Vector3D p1, Vector3D p2, Vector3D p3) {
         this.p1 = p1;

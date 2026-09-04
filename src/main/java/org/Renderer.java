@@ -7,8 +7,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class Renderer {
-    private int width;
-    private int height;
+    private final int width;
+    private final int height;
 
     public Renderer(int width, int height) {
         this.width = width;
